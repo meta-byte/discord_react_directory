@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "first": "Garrett",
+        "last": "Howard",
+        "role": "Admin",
+        "email": "garrett@test.com"
+    },
+    {
+        "id": 2,
+        "first": "Devin",
+        "last": "Sharp",
+        "role": "Moderator",
+        "email": "devin@test.com"
+    },
+    {
+        "id": 3,
+        "first": "Ben",
+        "last": "Darling",
+        "role": "Member",
+        "email": "ben@test.com"
+    },
+    {
+        "id": 4,
+        "first": "Cody",
+        "last": "Almond",
+        "role": "Member",
+        "email": "cody@test.com"
+    },
+    {
+        "id": 5,
+        "first": "Greg",
+        "last": "Cross",
+        "role": "Member",
+        "email": "greg@test.com"
+    },
+    {
+        "id": 6,
+        "first": "Gabe",
+        "last": "Esek",
+        "role": "Troll",
+        "email": "gabe@test.com"
+    }
+]
