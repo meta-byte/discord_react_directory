@@ -1,13 +1,17 @@
 import React from "react";
-import EmployeeTable from "../Components/EmployeeTable"
-import Header from "../Components/Header";
+import EmployeeTable from "../Components/EmployeeTable/EmployeeTable"
+import Header from "../Components/Header/Header";
+import Wrapper from "../Components/Wrapper";
+import Buttons from "../Components/Buttons/Buttons";
+
 
 function Home() {
     return (
-        <div>
+        <Wrapper>
             <Header />
+            <Buttons />
             <EmployeeTable />
-        </div>
+        </Wrapper>
     )
 }
 

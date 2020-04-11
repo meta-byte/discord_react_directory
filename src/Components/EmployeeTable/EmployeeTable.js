@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import Employee from "./Employee";
+import Employee from "../Employee/Employee";
 import employees from "../employees.json"
 
 class EmployeeTable extends Component {
     render() {
         return (
-            <div className="container white-text">
-                <table className="highlight purple darken-3">
+            <div className="white-text">
+                <table className="highlight centered purple darken-3">
                     <thead>
                         <tr>
                             <th>ID</th>
