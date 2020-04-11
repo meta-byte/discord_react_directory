@@ -1,6 +1,6 @@
 import React from "react";
 
-function Employee(props) {
+function Member(props) {
     return (
         <tr>
             <td>{props.id}</td>
@@ -12,4 +12,4 @@ function Employee(props) {
     )
 }
 
-export default Employee;
+export default Member;
