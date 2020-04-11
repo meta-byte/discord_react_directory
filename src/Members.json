@@ -40,5 +40,26 @@
         "last": "Esek",
         "role": "Troll",
         "email": "gabe@test.com"
+    },
+    {
+        "id": 7,
+        "first": "Sho",
+        "last": "Oba",
+        "role": "Member",
+        "email": "sho@test.com"
+    },
+    {
+        "id": 8,
+        "first": "Tanner",
+        "last": "Vail",
+        "role": "Member",
+        "email": "tanner@test.com"
+    },
+    {
+        "id": 9,
+        "first": "Megan",
+        "last": "Sharp",
+        "role": "Member",
+        "email": "megan@test.com"
     }
 ]
