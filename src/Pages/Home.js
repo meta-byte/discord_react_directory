@@ -13,16 +13,41 @@ class Home extends Component {
     }
 
     defaultState = () => {
-        this.setState({ members: members })
+        var defaultMembers = members
+        defaultMembers.sort(function (a, b) {
+            if (a.id < b.id) { return -1; }
+            if (a.id > b.id) { return 1; }
+            return 0;
+        })
+        this.setState({ members: defaultMembers })
     }
 
     filterMembers = () => {
-        var memberRole = members.filter(function (member) {
-            return member.role === "Member";
-        })
-        // console.log("It works")
+        var memberRole = members.filter(member => member.role === "Member")
         this.setState({ members: memberRole });
     }
+
+    sortFirst = () => {
+        var firstMembers = this.state.members
+        firstMembers.sort(function (a, b) {
+            if (a.first < b.first) { return -1; }
+            if (a.first > b.first) { return 1; }
+            return 0;
+        })
+        console.log(firstMembers)
+        this.setState({ employees: firstMembers });
+    }
+    sortLast = () => {
+        var lastMembers = this.state.members
+        lastMembers.sort(function (a, b) {
+            if (a.last < b.last) { return -1; }
+            if (a.last > b.last) { return 1; }
+            return 0;
+        })
+        console.log(lastMembers)
+        this.setState({ employees: lastMembers });
+    }
+
 
     render() {
 
@@ -30,7 +55,10 @@ class Home extends Component {
             <Wrapper>
                 <Header />
                 <Buttons
+                    defaultState={this.defaultState}
                     filterMembers={this.filterMembers}
+                    sortFirst={this.sortFirst}
+                    sortLast={this.sortLast}
                 />
                 <div className="white-text">
                     <table className="highlight centered purple darken-3">
@@ -52,5 +80,4 @@ class Home extends Component {
         )
     }
 }
-
 export default Home;
