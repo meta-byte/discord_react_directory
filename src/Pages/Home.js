@@ -61,8 +61,8 @@ class Home extends Component {
                     sortLast={this.sortLast}
                 />
                 <div className="white-text">
-                    <table className="highlight centered purple darken-3">
-                        <thead>
+                    <table className="highlight centered indigo lighten-2 z-depth-2">
+                        <thead className="indigo lighten-1">
                             <tr>
                                 <th>ID</th>
                                 <th>First</th>
