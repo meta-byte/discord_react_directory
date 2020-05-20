@@ -2,7 +2,7 @@
 
 ## Overview
 
-My first ever React app. The app was built with "npm create-react-app" and then boilerplate files were removed or edited. The objective was to be able to display a list of people and sort them by a criteria AND filter them by a criteria. To meet this objective I built a dummy roster of a Discord gaming server my friends and I use. Several separate components were built and rendered, state was used to manage displaying sorted items. The app was styled minimally with the Materialize CSS Framework.
+My first ever React app. The app was built with "npx create-react-app" and then boilerplate files were removed or edited. The objective was to be able to display a list of people and sort them by a criteria AND filter them by a criteria. To meet this objective I built a dummy roster of a Discord gaming server my friends and I use. Several separate components were built and rendered, state was used to manage displaying sorted items. The app was styled minimally with the Materialize CSS Framework.
 
 
 ## Gallery
