@@ -25,10 +25,3 @@ To view the site please click [here](https://discord-roster.herokuapp.com/)
 | Materialize   | Used Materialize to style the elements. All styling was done with Materialize Classes            |
 
 
-## Contact Info
-
-mail: hylander.garrett@gmail.com
-
-Phone: (801)-592-0371
-
-[Linkedin](https://www.linkedin.com/in/garrett-h-859007a0/)
